@@ -53,10 +53,25 @@
 
 // console.log(now - 1991 > now - 2018);
 
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
-console.log(now - 1991 > now - 2018);
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+// console.log(now - 1991 > now - 2018);
 
-const averageAge = (ageJonas + ageSarah) / 2;
-console.log(ageJonas, ageSarah, averageAge);
+// const averageAge = (ageJonas + ageSarah) / 2;
+// console.log(ageJonas, ageSarah, averageAge);
+
+// Strings and Template Literals
+
+const firstName = "Pedro";
+const job = "Software Engineer";
+const birthYear = 2005;
+const year = 2024;
+
+const pedro =
+  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job;
+
+console.log(pedro);
+
+const pedroNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
+console.log(pedroNew);
