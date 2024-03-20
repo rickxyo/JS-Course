@@ -63,15 +63,44 @@
 
 // Strings and Template Literals
 
-const firstName = "Pedro";
-const job = "Software Engineer";
-const birthYear = 2005;
-const year = 2024;
+// const firstName = "Pedro";
+// const job = "Software Engineer";
+// const birthYear = 2005;
+// const year = 2024;
 
-const pedro =
-  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job;
+// const pedro =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job;
 
-console.log(pedro);
+// console.log(pedro);
 
-const pedroNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
-console.log(pedroNew);
+// const pedroNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
+// console.log(pedroNew);
+
+// if / else statements
+
+// const age = 19;
+// const isOldEnough = age >= 18;
+
+// if (isOldEnough) {
+//   console.log("Sarah cant start driving license");
+// }
+
+// most used
+
+const age = 19;
+
+if (age >= 18) {
+  console.log("Sarah cant start driving license");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+}
+
+const birthYear = 1991;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
