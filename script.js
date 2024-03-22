@@ -87,20 +87,45 @@
 
 // most used
 
-const age = 19;
+// const age = 19;
 
-if (age >= 18) {
-  console.log("Sarah cant start driving license");
-} else {
-  const yearsLeft = 18 - age;
-  console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
-}
+// if (age >= 18) {
+//   console.log("Sarah cant start driving license");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+// }
 
-const birthYear = 1991;
+// const birthYear = 1991;
 
-let century;
-if (birthYear <= 2000) {
-  century = 20;
-} else {
-  century = 21;
-}
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+
+// Type  conversion
+
+// Converting a string to a number
+const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+// Converting a number to a string
+console.logh(String(23));
+
+// Type coercion
+console.log("I am" + 23 + " years old ");
+console.log("23" - "10" - 3);
+console.log("23" / "2");
+
+let n = "1" + 1; // '11'
+n = n - 1;
+console.log(n);
+
+console.log(2 + 3 + 4 + "5"); //'95'
+// 2 + 3 + 4 = 9
+
+console.log("10" - "4" - "3" - 2 + "5"); //'15'
+//'10' - '4' - '3' -2 = 1
