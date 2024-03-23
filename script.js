@@ -133,14 +133,36 @@
 
 // 5 Falsy values: 0, '', undefined, null, NaN
 
-console.log(Boolean(0)); //false
-console.log(Boolean(undefined)); //false
-console.log(Boolean("Jonas")); //true
-console.log(Boolean({})); //true
+// console.log(Boolean(0)); //false
+// console.log(Boolean(undefined)); //false
+// console.log(Boolean("Jonas")); //true
+// console.log(Boolean({})); //true
 
-const money = 0;
-if (money) {
-  console.log("Don´t spend it all");
+// const money = 0;
+// if (money) {
+//   console.log("Don´t spend it all");
+// } else {
+//   console.log("You should get a job");
+// }
+
+// Type Strict (Always use this)
+const age = 18;
+if (age === 18) console.log("you just become an adult");
+
+// Type coercion
+if (age == 18) console.log("you just become an adult");
+
+// "Number" = convert string to a number
+const favourite = Number(prompt("What is your favorite number?"));
+console.log(favourite);
+
+if (favourite === 18) {
+  console.log("18 is an amazing number");
+} else if (favourite === 8) {
+  console.log("8 is also an amazing number");
 } else {
-  console.log("You should get a job");
+  console.log("this number isnt cool");
 }
+
+// Different
+if (favourite !== 23) console.log("why not 18?");
