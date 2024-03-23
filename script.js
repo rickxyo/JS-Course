@@ -146,23 +146,55 @@
 // }
 
 // Type Strict (Always use this)
-const age = 18;
-if (age === 18) console.log("you just become an adult");
+// const age = 18;
+// if (age === 18) console.log("you just become an adult");
 
-// Type coercion
-if (age == 18) console.log("you just become an adult");
+// // Type coercion
+// if (age == 18) console.log("you just become an adult");
 
-// "Number" = convert string to a number
-const favourite = Number(prompt("What is your favorite number?"));
-console.log(favourite);
+// // "Number" = convert string to a number
+// const favourite = Number(prompt("What is your favorite number?"));
+// console.log(favourite);
 
-if (favourite === 18) {
-  console.log("18 is an amazing number");
-} else if (favourite === 8) {
-  console.log("8 is also an amazing number");
+// if (favourite === 18) {
+//   console.log("18 is an amazing number");
+// } else if (favourite === 8) {
+//   console.log("8 is also an amazing number");
+// } else {
+//   console.log("this number isnt cool");
+// }
+
+// // Different
+// if (favourite !== 23) console.log("why not 18?");
+
+// logical operators
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+// AND = &&. True + false = false, because one of the variables is false
+console.log(hasDriversLicense && hasGoodVision); //false
+
+// OR = ||. true + false = true, because one of the variables is true
+console.log(hasDriversLicense || hasGoodVision); //true
+
+// NOT = !. Invert operators
+console.log(!hasDriversLicense); //false
+
+// const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// example
+if (hasDriversLicense && hasGoodVision) {
+  console.log("Sarah is able to drive");
 } else {
-  console.log("this number isnt cool");
+  console.log("Someone else should drive");
 }
 
-// Different
-if (favourite !== 23) console.log("why not 18?");
+// example 2
+
+const isTired = true;
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive");
+} else {
+  console.log("Someone else should drive");
+}
