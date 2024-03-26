@@ -200,23 +200,34 @@ console.log(!hasDriversLicense); //false
 // }
 
 // Switch statement
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-  case "monday":
-    console.log("blablabla1");
-    console.log("blablabla2");
-    break;
-  case "tuesday":
-    console.log("blablabla3");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log("blablabla4");
-    break;
-  case "friday":
-    console.log("blablabla5");
-    break;
-  default:
-    console.log("not a valid day");
-}
+// switch (day) {
+//   case "monday":
+//     console.log("blablabla1");
+//     console.log("blablabla2");
+//     break;
+//   case "tuesday":
+//     console.log("blablabla3");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("blablabla4");
+//     break;
+//   case "friday":
+//     console.log("blablabla5");
+//     break;
+//   default:
+//     console.log("not a valid day");
+// }
+
+// Conditional operator (if/else in "one" line)
+const age = 23;
+// age >= 18
+//   ? console.log("i like to drink wine")
+//   : console.log("i like to drink water");
+
+const drink = age >= 18 ? "wine" : "water";
+console.log("drink");
+
+console.log(`i like to drink ${age >= 18 ? "wine" : "water"}`);
