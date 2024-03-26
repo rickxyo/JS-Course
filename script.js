@@ -183,18 +183,40 @@ console.log(!hasDriversLicense); //false
 // const shouldDrive = hasDriversLicense && hasGoodVision;
 
 // example
-if (hasDriversLicense && hasGoodVision) {
-  console.log("Sarah is able to drive");
-} else {
-  console.log("Someone else should drive");
-}
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log("Sarah is able to drive");
+// } else {
+//   console.log("Someone else should drive");
+// }
 
-// example 2
+// // example 2
 
-const isTired = true;
+// const isTired = true;
 
-if (hasDriversLicense && hasGoodVision && !isTired) {
-  console.log("Sarah is able to drive");
-} else {
-  console.log("Someone else should drive");
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log("Sarah is able to drive");
+// } else {
+//   console.log("Someone else should drive");
+// }
+
+// Switch statement
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("blablabla1");
+    console.log("blablabla2");
+    break;
+  case "tuesday":
+    console.log("blablabla3");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("blablabla4");
+    break;
+  case "friday":
+    console.log("blablabla5");
+    break;
+  default:
+    console.log("not a valid day");
 }
