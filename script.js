@@ -168,17 +168,17 @@
 // if (favourite !== 23) console.log("why not 18?");
 
 // logical operators
-const hasDriversLicense = true;
-const hasGoodVision = false;
+// const hasDriversLicense = true;
+// const hasGoodVision = false;
 
-// AND = &&. True + false = false, because one of the variables is false
-console.log(hasDriversLicense && hasGoodVision); //false
+// // AND = &&. True + false = false, because one of the variables is false
+// console.log(hasDriversLicense && hasGoodVision); //false
 
-// OR = ||. true + false = true, because one of the variables is true
-console.log(hasDriversLicense || hasGoodVision); //true
+// // OR = ||. true + false = true, because one of the variables is true
+// console.log(hasDriversLicense || hasGoodVision); //true
 
-// NOT = !. Invert operators
-console.log(!hasDriversLicense); //false
+// // NOT = !. Invert operators
+// console.log(!hasDriversLicense); //false
 
 // const shouldDrive = hasDriversLicense && hasGoodVision;
 
